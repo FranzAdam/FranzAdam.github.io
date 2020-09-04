@@ -2,7 +2,7 @@
   "basics": {
     "name": "Franz Adam",
     "label": "Student",
-    "picture": "https://franzadam.github.io/images/MeTi.jpg",
+    "picture": "https://FranzAdam.github.io/images/MeTi.jpg",
     "email": "fadam@hawaii.edu",
     "phone": "808-384-7217",
     "website": "https://franzadam.github.io",
@@ -17,8 +17,8 @@
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "FranzAdam",
+        "url": "http://github.com/FranzAdam"
       },
       {
         "network": "linkedin",
