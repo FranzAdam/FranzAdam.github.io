@@ -1,15 +1,15 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Franz Adam",
     "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "picture": "https://franzadam.github.io/images/MeTi.jpg",
+    "email": "fadam@hawaii.edu",
+    "phone": "808-384-7217",
+    "website": "https://franzadam.github.io",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences and Mathematics at the University of Hawaii. In addition I am pursuing a Minor in Business at the Shidler College of Business. I expect to graduate in Fall, 2022.",
     "location": {
       "address": "",
-      "postalCode": "96822",
+      "postalCode": "96816",
       "city": "Honolulu",
       "countryCode": "USA",
       "region": "Hawaii"
@@ -22,19 +22,19 @@
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
-      },
-      {
+        "username": "Franz Adam",
+        "url": "https://www.linkedin.com/in/franz-adam-a7260a190/"
+      }
+     /* {
         "network": "twitter",
         "username": "mollymal",
         "url": "http://twitter.com/changeme"
-      },
-      {
+      },*/
+   /*   {
         "network": "instagram",
         "username": "molly",
         "url": "http://instagram.com/changeme"
-      }
+      }*/
     ]
   },
   "interests": [
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "name": "data mining",
+      "name": "financial engeneering",
       "keywords": [
       ]
     },
@@ -62,6 +62,7 @@
       "level": "",
       "keywords": [
         "C",
+        "SQL",
         "C++",
         "Java",
         "Javascript",
@@ -84,11 +85,11 @@
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "area": "Computer Science, Mathematics",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present",
-      "gpa": "",
+      "startDate": "2018-01-08",
+      "endDate": "Fall 2022",
+      "gpa": "3.7",
       "courses": [
       ]
     }
