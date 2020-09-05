@@ -1,13 +1,13 @@
 ---
 layout: essay
 type: essay
-title: Smart Questions, Good Answers
+title: My contact with Software Engineering
 # All dates must be YYYY-MM-DD format!
 date: 2015-09-08
 labels:
   - Questions
-  - Answers
-  - StackOverflow
+  - Career
+  - Story
 ---
 Ever since I got my first computer and started playing video games I was interested in computer technology and its software. 
 In the early stages I was more interested in the hardware. I used to buy each part from motherboard and RAM cards,
