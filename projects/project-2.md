@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/game2.jpg
+image: images/game3.jpg
 title: Russian
 permalink: projects/vacay
 # All dates must be YYYY-MM-DD format!
