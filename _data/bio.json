@@ -34,7 +34,7 @@
       ]
     },
     {
-      "name": "financial engineering",
+      "name": "Financial Engineering",
       "keywords": [
       ]
     },
@@ -79,8 +79,8 @@
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science, B.S. Mathematics, Minor Business",
-      "studyType": "B.S.",
+      "area": "B.S. Computer Science, B.S. Mathematics, Minor Business",
+      "studyType": "",
       "startDate": "2018-01-08",
       "endDate": "2022",
       "gpa": "3.7",
