@@ -92,6 +92,17 @@
     }
   ],
   "work": [
+        {
+      "company": "PlayerPlus",
+      "position": "Web Developer",
+      "website": "https://davidrb.gitlab.io/playerplus",
+      "startDate": "2020-05-28",
+      "endDate": "Present",
+      "summary": "Part Owner and founder of PlayerPlus Inc., an mobile medical record system add on for athletic trainers in U.S. college sports teams.",
+      "highlights": [
+        "Web Development, Database, Mobile Application"
+      ]
+    },
     {
       "company": "MuvaTach",
       "position": "Assistant Database Coordinator",
@@ -102,37 +113,14 @@
       "highlights": [
         "Maintaining and updating the Order, Supply and Shipment Database of MuvaTech."
       ]
-    },
-    {
-      "company": "PlayerPlus",
-      "position": "Web Developer",
-      "website": "https://davidrb.gitlab.io/playerplus",
-      "startDate": "2020-05-28",
-      "endDate": "Present",
-      "summary": "Part Owner and founder of PlayerPlus Inc., an mobile medical record system add on for athletic trainers in U.S. college sports teams.",
-      "highlights": [
-        "Web Development, Database, Mobile Application"
-      ]
     }
   ],
   "awards": [
-    {
-      "title": "Honoarable Mention",
-      "date": "2017",
-      "awarder": "BG Tanzenberg",
-      "summary": "Honorable mention by my High School for my Final Project covering applications of the general theory of relativity for interstellar travels. "
-    },
-    {
-      "title": "National Champion",
-      "date": "2017,2018",
-      "awarder": "Austrian Swimming Federation",
-      "summary": "Austrian National Champion at the Austrian Nationals 2017 and 2018."
-    },
-    {
-      "title": "Dean's List",
-      "date": "2019,2020",
-      "awarder": "UH Manoa",
-      "summary": "Placement on the Dean's List, by achieving a G.P.A. of 3.5 or higher. "
+     {
+      "title": "CSCAA Scholar All-American",
+      "date": "2020",
+      "awarder": "CSCAA",
+      "summary": ""
     },
     {
       "title": "US Olympic Trials",
@@ -141,16 +129,28 @@
       "summary": "Achieving the US Olympic Trial qualification time in 50m Freestyle at Toyota U.S. Open 2019 Atlanta, GA."
     },
     {
+      "title": "Dean's List",
+      "date": "2019,2020",
+      "awarder": "UH Manoa",
+      "summary": "Placement on the Dean's List, by achieving a G.P.A. of 3.5 or higher. "
+    },
+    {
       "title": "NCAA Championships",
       "date": "2019",
       "awarder": "NCAA",
       "summary": "Qualification for the NCAA D1 Championships 2019 Austin, TX."
     },
     {
-      "title": "CSCAA Scholar All-American",
-      "date": "2020",
-      "awarder": "CSCAA",
-      "summary": ""
+      "title": "National Champion",
+      "date": "2017,2018",
+      "awarder": "Austrian Swimming Federation",
+      "summary": "Austrian National Champion at the Austrian Nationals 2017 and 2018."
+    },
+    {
+      "title": "Honoarable Mention",
+      "date": "2017",
+      "awarder": "BG Tanzenberg",
+      "summary": "Honorable mention by my High School for my Final Project covering applications of the general theory of relativity for interstellar travels. "
     }
   ],
   "references": [
