@@ -11,7 +11,7 @@ labels:
   - Algorithm
 summary: An algorithm that looks for the best chess move in a given position.
 ---
-I am working on implementing my own chess move finder and eventually a whole A.I. bot you can play against.
+I am working on implementing my own chess move finder and further down the road my own A.I. bot.
 
 Picture used is open source.
 
