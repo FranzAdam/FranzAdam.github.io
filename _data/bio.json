@@ -92,7 +92,7 @@
     {
       "company": "MuvaTach,
       "position": "Assistant Database Coordinator",
-      "website": "",
+      "website": "https://www.muvatech.at",
       "startDate": "2019-06-01",
       "endDate": "2019-08-01",
       "summary": "Database Coordinator ",
@@ -106,7 +106,7 @@
       "website": "https://davidrb.gitlab.io/playerplus",
       "startDate": "2020-05-28",
       "endDate": "Present",
-      "summary": "Developer and part owner of PlayerPlus Inc.",
+      "summary": "Developer and part owner of PlayerPlus Inc., an mobile medical record system add on for athletic trainers in U.S. college sports teams.",
       "highlights": [
         "Web Development, Database, Mobile Application"
       ]
