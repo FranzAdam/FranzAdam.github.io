@@ -57,17 +57,14 @@
       "keywords": [
         "MacOS",
         "Ubuntu",
-        "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "Git/GitHub"
       ]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science", 
-      "Mathematics",
+      "area": "Computer Science, B.S. Mathematics, Minor-Business",
       "studyType": "B.S.",
       "startDate": "2018-01-08",
       "endDate": "2022",
