@@ -4,9 +4,9 @@
     "label": "Student",
     "picture": "https://FranzAdam.github.io/images/MeTi.jpg",
     "email": "fadam@hawaii.edu",
-    "phone": "808-384-7217",
+    "phone": "808-384-XXXX",
     "website": "https://franzadam.github.io",
-    "summary": "Student at the University of Hawaii. B.S. in Computer Science, B.S. in Mathematics, Minor in Business. Expect to graduate in Fall 2022. Part Owner and Developer of PlayerPlus Inc.",
+    "summary": "Student at the University of Hawaii. B.S. in Computer Science, B.S. in Mathematics, Minor in Business. Part Owner and Developer of PlayerPlus Inc. I expect to graduate in Fall 2022.",
     "location": {
       "address": "",
       "postalCode": "96816",
@@ -63,7 +63,11 @@
         "C++",
         "SQL",
         "Java",
-        "Javascript"
+        "Javascript",
+        "German",
+        "Italian",
+        "English",
+        "Russian (in process)"
       ]
     },
     {
@@ -120,16 +124,16 @@
       "summary": "Honorable mention by my High School for my Final Project covering applications of the general theory of relativity for interstellar travels. "
     },
     {
-      "title": "Nomination Dean's List",
-      "date": "2020,2019",
-      "awarder": "UH Manoa",
-      "summary": "Placement on the Dean's List, by achieving a G.P.A. of 3.5 or higher. "
+      "title": "National Champion",
+      "date": "2017,2018",
+      "awarder": "Austrian Swimming Federation",
+      "summary": "Austrian National Champion at the Austrian Nationals 2017 and 2018."
     },
     {
-      "title": "CSCAA Scholar All-American",
-      "date": "2020",
-      "awarder": "CSCAA",
-      "summary": ""
+      "title": "Dean's List",
+      "date": "2019,2020",
+      "awarder": "UH Manoa",
+      "summary": "Placement on the Dean's List, by achieving a G.P.A. of 3.5 or higher. "
     },
     {
       "title": "US Olympic Trials",
@@ -143,11 +147,11 @@
       "awarder": "NCAA",
       "summary": "Qualification for the NCAA D1 Championships 2019 Austin, TX."
     },
-        {
-      "title": "National Champion",
-      "date": "2017,2018",
-      "awarder": "Austrian Swimming Federation",
-      "summary": "Austrian National Champion at the Austrian Nationals 2017 and 2018."
+    {
+      "title": "CSCAA Scholar All-American",
+      "date": "2020",
+      "awarder": "CSCAA",
+      "summary": ""
     }
   ],
   "references": [
