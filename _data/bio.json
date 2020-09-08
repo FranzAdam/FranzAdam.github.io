@@ -64,10 +64,10 @@
         "SQL",
         "Java",
         "Javascript",
-        "German",
-        "Italian",
-        "English",
-        "Russian (in process)"
+        "English (fluent)",
+        "German (fluent)",
+        "Italian (good working knowledge)",
+        "Russian (working knowledge)"
       ]
     },
     {
@@ -109,7 +109,7 @@
       "website": "https://davidrb.gitlab.io/playerplus",
       "startDate": "2020-05-28",
       "endDate": "Present",
-      "summary": "Developer and part owner of PlayerPlus Inc., an mobile medical record system add on for athletic trainers in U.S. college sports teams.",
+      "summary": "Part Owner and founder of PlayerPlus Inc., an mobile medical record system add on for athletic trainers in U.S. college sports teams.",
       "highlights": [
         "Web Development, Database, Mobile Application"
       ]
