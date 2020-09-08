@@ -10,7 +10,7 @@ labels:
   - GameDevelopment
   - Mobile
   - Java
-summary: I am working on a simple mobile game.
+summary: I am working on mobile game.
 ---
 
 Cave Escape is my first game I am developing. I usually work on it after doing my school assignmentas to relax.
