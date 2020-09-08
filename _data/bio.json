@@ -36,7 +36,7 @@
       ]
     },
     {
-      "name": "financial engeneering",
+      "name": "financial engineering",
       "keywords": [
       ]
     },
@@ -105,45 +105,42 @@
       ]
     }
   ],
-  "volunteer": [
-    {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
-    },
-    {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
-      ]
-    }
-  ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "Honoarable Mention Final Project",
+      "date": "2017",
+      "awarder": "BG Tanzenberg",
+      "summary": "Honorable mention by my High School for my Final Project covering applications of the general theory of relativity for interstellar travels. "
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Nomination Dean's List",
+      "date": "2020,2019",
+      "awarder": "UH Manoa",
+      "summary": "Placement on the Dean's List, by achieving an G.P.A. of 3.5 or higher. "
+    },
+    {
+      "title": "D1 CSCAA Scholar All-American",
+      "date": "2020",
+      "awarder": "CSCAA",
+      "summary": ""
+    },
+    {
+      "title": "US Olympic Trials",
+      "date": "2019",
+      "awarder": "USA Swimming",
+      "summary": "Achieving the US Olympic Trial qualification time in 50m Freestyle at Toyota U.S. Open 2019 Atlanta, GA."
+    },
+    {
+      "title": "NCAA Championships",
+      "date": "2019",
+      "awarder": "NCAA",
+      "summary": "Qualification for the NCAA D1 Championships 2019 Austin, TX."
+    },
+        {
+      "title": "National Champion",
+      "date": "2017,2018",
+      "awarder": "Austrian Swimming Federation",
+      "summary": "Austrian National Champion at the Austrian Nationals 2017 and 2018."
     }
   ],
   "references": [
