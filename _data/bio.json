@@ -31,8 +31,6 @@
     {
       "name": "Artificial Intelligence",
       "keywords": [
-        "Arduino",
-        "TI MSP430"
       ]
     },
     {
@@ -47,12 +45,10 @@
       "level": "",
       "keywords": [
         "C",
-        "SQL",
         "C++",
+        "SQL",
         "Java",
-        "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "Javascript"
       ]
     },
     {
@@ -70,10 +66,11 @@
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science, Mathematics",
+      "area": "Computer Science", 
+      "Mathematics",
       "studyType": "B.S.",
       "startDate": "2018-01-08",
-      "endDate": "Fall 2022",
+      "endDate": "2022",
       "gpa": "3.7",
       "courses": [
       ]
@@ -116,7 +113,7 @@
       "title": "Nomination Dean's List",
       "date": "2020,2019",
       "awarder": "UH Manoa",
-      "summary": "Placement on the Dean's List, by achieving an G.P.A. of 3.5 or higher. "
+      "summary": "Placement on the Dean's List, by achieving a G.P.A. of 3.5 or higher. "
     },
     {
       "title": "D1 CSCAA Scholar All-American",
