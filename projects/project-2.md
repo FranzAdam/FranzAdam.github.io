@@ -8,9 +8,9 @@ permalink: projects/vacay
 date: 2020-07-15
 labels:
   - language
-summary: Trying to learn a new language.
+summary: Learning a new language.
 ---
 
-I am trying to learn and eventually master a new language.
+I am trying to learn and eventually master Russian.
 
 Picture used is open source.
