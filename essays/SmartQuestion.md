@@ -5,8 +5,11 @@ title: Asking for help in a smart way
 # All dates must be YYYY-MM-DD format!
 date: 2020-09-09
 labels:
-  - Question
-  
+  - Asking for help
+  - Asking questions
+  - Learning
+---
+
 How come almost every professor in college wants me to not know something and ask questions? Aren't you supposed to know everything you are doing in class and isn't asking questions about course material implying that you are not prepared for class accordingly? 
 That were the views I had when I came to college and took my first classes.
 I was trying to figure out everything on my own and avoided asking questions at all costs. I would rather look at advanced code on some dubious stackoverflow websites, of people asking questions that were only slightly related to my problem, then to just ask one of my classmates or email a professor. "Ask questions! Even if you think they are stupid, there is a high chance some of your classmates have the same." That is, what seemingly every professor in a proper course tells you to do, yet only few do so. For myself, it took me about three semesters and dozens of wasted hours to acknowledge that asking for help is not a sign of stupidity or unpreparedness, but rather a powerful tool fo everyone, no matter at university or work. And it took another semester to swallow my pride and to start asking my peers and professors for help, because I did not understand something. 
