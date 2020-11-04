@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Final Project Idea
+title: FinalProjectIdea
 # All dates must be YYYY-MM-DD format!
 date: 2020-11-01
 labels:
