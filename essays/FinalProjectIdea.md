@@ -8,6 +8,7 @@ labels:
   - Software Engineering
   - Meteor
 ---
+
 # Overview
 Ever since the transission to electronic medical record systems for athletic staff at university sports programs, a tremendous amount of time has been spent on recording
 athletes' data due to the fact that most EMR systems do not provide a user friendly interface and are not easily accessible, so athletic trainer often record data and then copy it into the system at the end of the day.
