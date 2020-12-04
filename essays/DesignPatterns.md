@@ -18,6 +18,7 @@ Lastly, this part of my essay will serve my future self, which hopefully will be
 # Factory
 Problem Description: “Creates objects without exposing underlying logic, potentially returning objects associated with different classes and/or creating dependent objects.” -Philip Johnson
 Factory allows you to return and create instances of multiple classes from one super- or parent-class. Looking at the picture below, ShapeFactory will allow you to create single instances of Circle, Square and Rectangle all extending and implemented by super-class Shape. Factory also allows you to build additional dependent object on the already existing one, making it a very useful, but slightly complicated design pattern. 
+![FactoryShape](Factory.png)
 # Singleton
 Problem Description: “Provide a global variable in an object-oriented language that does not support global variable, and/or provide complex global state” -Philip Johnson
 Singleton allows you to create a variable that has only one instance and provides one “global state”. The implementation is easy and most of the time it only happened in the moment it is needed. Unless handled very carefully, usage of global state is unwise and not thread-safe. 
