@@ -1,3 +1,13 @@
+---
+layout: essay
+type: essay
+title: DesignPatterns
+# All dates must be YYYY-MM-DD format!
+date: 2020-12-02
+labels:
+  - Design Patterns
+  - Learning
+---
 Over the last 40 years the world record in the 100m freestyle in swimming has dropped almost three seconds. For anyone that does not follow swimming, let me tell you that this is a significant amount of time. Every year, the D1 national collegiate championship cuts get faster as they have been the year before and every year experts say that it will come to a halt, but it does not. So, what is the reason for that. People do not just get stronger and faster within one generation. Also, the equipment does not change, they are still using a suit, caps and goggles.
 The main change that leads to such a steady increase in swimmers performance and in general performance of all athletes is the way they train. To be more specific, it is the way they are coached. Every year, with every athlete, coaches figure out ways to get athletes to a certain performance quicker and more efficient. Athletes reach certain milestone, say a certain time on a certain distance, much more quickly than they used to 10 and 20 years ago. There are certain problems that need to be solved to advance to a higher level. Technique, strength, nutrition, and mindset; all these areas include problems, that when solving them lead to an increase to the overall performance of an athlete. Every new athlete and coach starting off nowadays, has all these years of previous experience available. They have a head start and advantage in knowledge compared to previous athletes. 
 But how is this relevant in any way to Software Engineering? Well I think there is a correlation between sports and design patterns in Software Engineering. They also build on commonly occurring problems and their solutions that were once discovered and are now widely applied and used. Reusable solutions to high volume problems are commonly used in every field of study and going back to Software Engineering, that is exactly what design patterns are. 
