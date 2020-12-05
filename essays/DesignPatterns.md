@@ -16,15 +16,15 @@ However many actual design patterns I have used in this class, I do not understa
 
 Lastly, this part of my essay will serve my future self, which hopefully will be reading this in order to refresh on design patterns in preparation for a job interview and also everyone that could make use of a small reiteration on four basic design patterns.
 # Factory
-Problem Description: “Creates objects without exposing underlying logic, potentially returning objects associated with different classes and/or creating dependent objects.” -Philip Johnson
+Problem Description: “Creates objects without exposing underlying logic, potentially returning objects associated with different classes and/or creating dependent objects.” -Philip Johnson<br/>
 Factory allows you to return and create instances of multiple classes from one super- or parent-class. Looking at the picture below, ShapeFactory will allow you to create single instances of Circle, Square and Rectangle all extending and implemented by super-class Shape. Factory also allows you to build additional dependent object on the already existing one, making it a very useful, but slightly complicated design pattern. 
 ![FactoryShape](/images/Factory.png)
 # Singleton
-Problem Description: “Provide a global variable in an object-oriented language that does not support global variable, and/or provide complex global state” -Philip Johnson
+Problem Description: “Provide a global variable in an object-oriented language that does not support global variable, and/or provide complex global state” -Philip Johnson<br/>
 Singleton allows you to create a variable that has only one instance and provides one “global state”. The implementation is easy and most of the time it only happened in the moment it is needed. Unless handled very carefully, usage of global state is unwise and not thread-safe. 
 # Observer
-Problem Description: “When a set of objects (called the ‘Observers’) need to be informed whenever a change in state occurs to another object (called the ‘Subject’).” -Philip Johnson
+Problem Description: “When a set of objects (called the ‘Observers’) need to be informed whenever a change in state occurs to another object (called the ‘Subject’).” -Philip Johnson<br/>
 The subject object can maintain some sort of observer collection, including all kinds of observers for different parts of events. Once those events experience a change of state, then the subject will notify the observer of this event. This is a very common scenario in event-driven systems. Advantages include open-ended numbers of dependencies that can be changed at run-time. Disadvantages include room for poor implementation that can lead to performance issues and race conditions in multi-threaded systems.    
 # MVC
-Problem Description: “When implementing a user interface, it is desirable to decouple the internal representation of information from the way it is presented to and accepted from the user.” -Philip Johnson
+Problem Description: “When implementing a user interface, it is desirable to decouple the internal representation of information from the way it is presented to and accepted from the user.” -Philip Johnson<br/>
 A Model-View-Controller defines the application behavior on Model and View, decides which one is presented and splits them up to allow easy accessibility to both at the same time. The Model component can be seen as the Database or the Back End of one application and the View component can be seen as its Front-End. A big advantage MVC offers is splitting up work by people with different skills. One disadvantage is its complexity/learning curve. 
