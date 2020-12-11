@@ -170,19 +170,19 @@
   "references": [
     {
       "name": "Dan Schemmel, Men's Head Coach at Stanford University.",
-      "reference": "schemel@stanford.edu"
+      "reference": "schemel@stanford.edu <br/>"
     },
     {
       "name": "Elliot Ptasnik, Men's Head Coach at University of Hawai'i at Manoa.",
       "reference": "eptasnik@hawaii.edu <br/>"
     },
     {
-      "name": "Nick Folker, Men's Athletic Coordinator at UC at Berkeley. <br/>",
-      "reference": "nfolker@hawaii.edu"
+      "name": "Nick Folker, Men's Athletic Coordinator at UC at Berkeley.",
+      "reference": "nfolker@hawaii.edu <br/>"
     },
     {
-      "name": "Dirk Lange, Former swimming head coach for Senior National Team Germany <br/>",
-      "reference": "dirk.lange@lsv-steiermark.at"
+      "name": "Dirk Lange, Former swimming head coach for Senior National Team Germany ",
+      "reference": "dirk.lange@lsv-steiermark.at <br/>"
     }
   ]
 }
