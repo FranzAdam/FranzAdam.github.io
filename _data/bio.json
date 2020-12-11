@@ -61,6 +61,7 @@
       "keywords": [
         "C",
         "C++",
+        "React",
         "SQL",
         "Java",
         "Javascript",
@@ -123,6 +124,12 @@
       "summary": ""
     },
     {
+      "title": "PACE Summer Start Up Launchpad Selection",
+      "date": "2020",
+      "awarder": "Pacific Asian Center for Entrepreneurship (PACE)",
+      "summary": "My team's startup idea got selected for a 6 week long summer course, where we were taught and actively took the first steps in shaping and launching our product."
+    },
+    {
       "title": "US Olympic Trials",
       "date": "2019",
       "awarder": "USA Swimming",
@@ -156,15 +163,19 @@
   "references": [
     {
       "name": "Dan Schemmel, Men's Head Coach at Stanford University. <br/>",
-      "reference": ""
+      "reference": "schemel@stanford.edu"
     },
     {
       "name": "Elliot Ptasnik, Men's Head Coach at University of Hawai'i at Manoa. <br/>",
-      "reference": ""
+      "reference": "eptasnik@hawaii.edu"
     },
     {
       "name": "Nick Folker, Men's Athletic Coordinator at UC at Berkeley. <br/>",
-      "reference": ""
+      "reference": "nfolker@hawaii.edu"
+    },
+    {
+      "name": "Dirk Lange, Former swimming head coach for Senior National Team Germany <br/>",
+      "reference": "dirk.lange@lsv-steiermark.at"
     }
   ]
 }
