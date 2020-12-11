@@ -83,7 +83,7 @@
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI"
+      "institution": "University of Hawaii, Honolulu, HI",
       "area": "B.S. Computer Science, B.S. Mathematics, Minor Business",
       "startDate": "2018-01-08",
       "endDate": "2022",
@@ -162,12 +162,12 @@
   ],
   "references": [
     {
-      "name": "Dan Schemmel, Men's Head Coach at Stanford University. <br/>",
+      "name": "Dan Schemmel, Men's Head Coach at Stanford University.",
       "reference": "schemel@stanford.edu"
     },
     {
-      "name": "Elliot Ptasnik, Men's Head Coach at University of Hawai'i at Manoa. <br/>",
-      "reference": "eptasnik@hawaii.edu"
+      "name": "Elliot Ptasnik, Men's Head Coach at University of Hawai'i at Manoa.",
+      "reference": "eptasnik@hawaii.edu <br/>"
     },
     {
       "name": "Nick Folker, Men's Athletic Coordinator at UC at Berkeley. <br/>",
