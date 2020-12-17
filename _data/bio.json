@@ -101,7 +101,7 @@
       "endDate": "Present",
       "summary": "Part Owner and founder of PlayerPlus Inc., an mobile medical record system add on for athletic trainers in U.S. college sports teams.",
       "highlights": [
-        "Web Development, Database, Mobile Application"
+        "Web Development, StartUp, Mobile Application"
       ]
     },
     {
@@ -116,11 +116,14 @@
       ]
     },
         {
-      "company": "University of Hawaii Athletic Department",
+      "company": "University of Hawaii at Manoa Athletic Department",
       "position": "Tutor",
       "startDate": "2019-08-26",
       "endDate": "Present",
-      "summary": "Undergraduate Tutor for ICS and Math courses"
+      "summary": "Undergraduate Tutor for ICS and Math courses",
+      "highlights": [
+        "ICS101, -111, -211, -212, -141, -241"
+      ]
     }
   ],
   "awards": [
