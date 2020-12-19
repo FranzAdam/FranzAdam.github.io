@@ -1,3 +1,12 @@
+---
+layout: essay
+type: essay
+title: Software Engineering Experience
+# All dates must be YYYY-MM-DD format!
+date: 2020-12-14
+labels:
+  - Learning
+---
 ## My last 4 months
 
 I want to share part of the experience I gained over the course of the last four months. Some of them I have gained within the realms of the ICS 314 class, some in a different class and some outside of it. Diving into my first Software Engineering experience, the subject I would like to mention first are the different development environments I used and gained knowledge in. A development environment is a collection of procedures and tools for developing, testing and debugging an application or program. Over the course of this class, I have mainly been using the development environment, ‘IntellIJ’, to write my code in. Also, I have been using ‘Visual Studio Code’ at the beginning of the semester. For both two programs it was my first time using them and, speaking for ‘IntellIJ’, I gave gained a broad knowledge about shortcuts, additional features and the adjustments and usage of the settings. So far, privately and in College I have only been working with language specific development environment, like Oracle for Java or just plain in a file in Unix, so getting to know such a generic development environment will be of great benefit. In addition to that, I have used terminal to a good extent to run, check and invoke tests on my code. <br/>
