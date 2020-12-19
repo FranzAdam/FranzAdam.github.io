@@ -24,7 +24,7 @@ My contribution to this project’s front end were design evaluation for the ove
 <img class="ui medium right floated rounded image" src="/images/login.png">
   * Current athletes (users) can sign in to their profile to view their profiles.
 #### Add Visit
-<img class="ui medium right floated rounded image" src="/images/addVisit.png">
+<img class="ui medium right floated rounded image" src="/images/AddVisit.png">
   * ATs can add Visits to athlete’s profiles.
 <br/> 
 ## Back End
