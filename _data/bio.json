@@ -6,7 +6,7 @@
     "email": "fadam@hawaii.edu",
     "phone": "808-384-XXXX",
     "website": "https://franzadam.github.io",
-    "summary": "Student at the University of Hawaii. Pursuing a B.S. in Computer Science, B.S. in Mathematics, Minor in Business. Expected Graduation: Spring 2022.",
+    "summary": "Student at the University of Hawaii. Pursuing a B.S. in Computer Science, Minor in Business. Expected Graduation: Spring 2022.",
     "location": {
       "address": "",
       "postalCode": "96816",
@@ -34,12 +34,12 @@
       ]
     },
     {
-      "name": "Financial Engineering",
+      "name": "Bioengineering",
       "keywords": [
       ]
     },
      {
-      "name": "Bioengineering",
+      "name": "Bioinformatics",
       "keywords": [
       ]
     },
@@ -61,14 +61,13 @@
       "keywords": [
         "C",
         "C++",
-        "React",
+        "R",
         "SQL",
         "Java",
         "Javascript",
         "English (fluent)",
         "German (fluent)",
-        "Italian (working knowledge)",
-        "Russian (in progress)"
+        "Italian (working knowledge)"
       ]
     },
     {
@@ -84,7 +83,7 @@
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "B.S. Computer Science, B.S. Mathematics, Minor Business",
+      "area": "B.S. Computer Science Data Science, Minor Business",
       "startDate": "2018-01-08",
       "endDate": "2022",
       "gpa": "3.7",
@@ -93,7 +92,18 @@
     }
   ],
   "work": [
-        {
+    {
+      "company": "University of Hawai'i",
+      "position": "Undergraduate Research Assistant",
+      "website": "https://www.uhmdatascienceteam.com/",
+      "startDate": "2021-01-08",
+      "endDate": "Present",
+      "summary": "Mathematical modeling of Covid-19 related issues",
+      "highlights": [
+        "Utilizing of data science, advanced Analytics, Predictive Modeling & Statistical Analyses in forecasting Covid-19"
+      ]
+    },
+    {
       "company": "PlayerPlus",
       "position": "Web Developer",
       "website": "https://davidrb.gitlab.io/playerplus",
@@ -122,8 +132,9 @@
       "endDate": "Present",
       "summary": "Undergraduate Tutor for ICS and Math courses",
       "highlights": [
-        "ICS 101, 111, 211, 212, 141, 241",
-        "MATH 100, 140, 141, 241, 242"
+        "ICS 100+, 200+, 300+",
+        "MATH 100+, 200+",
+        "CHEM 100+, 200+"
       ]
     }
   ],
@@ -181,12 +192,8 @@
       "reference": "eptasnik@hawaii.edu <br/>"
     },
     {
-      "name": "Nick Folker, Men's Athletic Coordinator at UC at Berkeley.",
-      "reference": "nfolker@hawaii.edu <br/>"
-    },
-    {
-      "name": "Dirk Lange, Former swimming head coach for Senior National Team Germany ",
-      "reference": "dirk.lange@lsv-steiermark.at <br/>"
+      "name": "Monique Chyba, Professor of Mathematics at University of Hawaii at Manoa",
+      "reference": "chyba@hawaii.edu <br/>"
     }
   ]
 }
