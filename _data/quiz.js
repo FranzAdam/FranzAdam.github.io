@@ -1,155 +1,136 @@
-(function(){
-  // Functions
-  function buildQuiz(){
-    // variable to store the HTML output
-    const output = [];
+var quiz = {
+  // (A) PROPERTIES 
+  // (A1) QUESTIONS & ANSWERS
+  // Q = QUESTION, O = OPTIONS, A = CORRECT ANSWER
+  data: [
+  {
+    q : "What is the standard distance between the target and archer in Olympics?",
+    o : [
+      "50 meters",
+      "70 meters",
+      "100 meters",
+      "120 meters"
+    ],
+    a : 1 // arrays start with 0, so answer is 70 meters
+  },
+  {
+    q : "Which is the highest number on a standard roulette wheel?",
+    o : [
+      "22",
+      "24",
+      "32",
+      "36"
+    ],
+    a : 3
+  },
+  {
+    q : "How much wood could a woodchuck chuck if a woodchuck would chuck wood?",
+    o : [
+      "400 pounds",
+      "550 pounds",
+      "700 pounds",
+      "750 pounds"
+    ],
+    a : 2
+  },
+  {
+    q : "Which is the seventh planet from the sun?",
+    o : [
+      "Uranus",
+      "Earth",
+      "Pluto",
+      "Mars"
+    ],
+    a : 0
+  },
+  {
+    q : "Which is the largest ocean on Earth?",
+    o : [
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Arctic Ocean",
+      "Pacific Ocean"
+    ],
+    a : 3
+  }
+  ],
 
-    // for each question...
-    myQuestions.forEach(
-      (currentQuestion, questionNumber) => {
+  // (A2) HTML ELEMENTS
+  hWrap: null, // HTML quiz container
+  hQn: null, // HTML question wrapper
+  hAns: null, // HTML answers wrapper
 
-        // variable to store the list of possible answers
-        const answers = [];
+  // (A3) GAME FLAGS
+  now: 0, // current question
+  score: 0, // current score
 
-        // and for each available answer...
-        for(letter in currentQuestion.answers){
+  // (B) INIT QUIZ HTML
+  init: function(){
+    // (B1) WRAPPER
+    quiz.hWrap = document.getElementById("quizWrap");
 
-          // ...add an HTML radio button
-          answers.push(
-            `<label>
-              <input type="radio" name="question${questionNumber}" value="${letter}">
-              ${letter} :
-              ${currentQuestion.answers[letter]}
-            </label>`
-          );
-        }
+    // (B2) QUESTIONS SECTION
+    quiz.hQn = document.createElement("div");
+    quiz.hQn.id = "quizQn";
+    quiz.hWrap.appendChild(quiz.hQn);
 
-        // add this question and its answers to the output
-        output.push(
-          `<div class="slide">
-            <div class="question"> ${currentQuestion.question} </div>
-            <div class="answers"> ${answers.join("")} </div>
-          </div>`
-        );
+    // (B3) ANSWERS SECTION
+    quiz.hAns = document.createElement("div");
+    quiz.hAns.id = "quizAns";
+    quiz.hWrap.appendChild(quiz.hAns);
+
+    // (B4) GO!
+    quiz.draw();
+  },
+
+  // (C) DRAW QUESTION
+  draw: function(){
+    // (C1) QUESTION
+    quiz.hQn.innerHTML = quiz.data[quiz.now].q;
+
+    // (C2) OPTIONS
+    quiz.hAns.innerHTML = "";
+    for (let i in quiz.data[quiz.now].o) {
+      let radio = document.createElement("input");
+      radio.type = "radio";
+      radio.name = "quiz";
+      radio.id = "quizo" + i;
+      quiz.hAns.appendChild(radio);
+      let label = document.createElement("label");
+      label.innerHTML = quiz.data[quiz.now].o[i];
+      label.setAttribute("for", "quizo" + i);
+      label.dataset.idx = i;
+      label.addEventListener("click", quiz.select);
+      quiz.hAns.appendChild(label);
+    }
+  },
+  
+  // (D) OPTION SELECTED
+  select: function(){
+    // (D1) DETACH ALL ONCLICK
+    let all = quiz.hAns.getElementsByTagName("label");
+    for (let label of all) {
+      label.removeEventListener("click", quiz.select);
+    }
+
+    // (D2) CHECK IF CORRECT
+    let correct = this.dataset.idx == quiz.data[quiz.now].a;
+    if (correct) { 
+      quiz.score++; 
+      this.classList.add("correct");
+    } else {
+      this.classList.add("wrong");
+    }
+  
+    // (D3) NEXT QUESTION OR END GAME
+    quiz.now++;
+    setTimeout(function(){
+      if (quiz.now < quiz.data.length) { quiz.draw(); } 
+      else {
+        quiz.hQn.innerHTML = `You have answered ${quiz.score} of ${quiz.data.length} correctly.`;
+        quiz.hAns.innerHTML = "";
       }
-    );
-
-    // finally combine our output list into one string of HTML and put it on the page
-    quizContainer.innerHTML = output.join('');
+    }, 1000);
   }
-
-  function showResults(){
-
-    // gather answer containers from our quiz
-    const answerContainers = quizContainer.querySelectorAll('.answers');
-
-    // keep track of user's answers
-    let numCorrect = 0;
-
-    // for each question...
-    myQuestions.forEach( (currentQuestion, questionNumber) => {
-
-      // find selected answer
-      const answerContainer = answerContainers[questionNumber];
-      const selector = `input[name=question${questionNumber}]:checked`;
-      const userAnswer = (answerContainer.querySelector(selector) || {}).value;
-
-      // if answer is correct
-      if(userAnswer === currentQuestion.correctAnswer){
-        // add to the number of correct answers
-        numCorrect++;
-
-        // color the answers green
-        answerContainers[questionNumber].style.color = 'lightgreen';
-      }
-      // if answer is wrong or blank
-      else{
-        // color the answers red
-        answerContainers[questionNumber].style.color = 'red';
-      }
-    });
-
-    // show number of correct answers out of total
-    resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
-  }
-
-  function showSlide(n) {
-    slides[currentSlide].classList.remove('active-slide');
-    slides[n].classList.add('active-slide');
-    currentSlide = n;
-    if(currentSlide === 0){
-      previousButton.style.display = 'none';
-    }
-    else{
-      previousButton.style.display = 'inline-block';
-    }
-    if(currentSlide === slides.length-1){
-      nextButton.style.display = 'none';
-      submitButton.style.display = 'inline-block';
-    }
-    else{
-      nextButton.style.display = 'inline-block';
-      submitButton.style.display = 'none';
-    }
-  }
-
-  function showNextSlide() {
-    showSlide(currentSlide + 1);
-  }
-
-  function showPreviousSlide() {
-    showSlide(currentSlide - 1);
-  }
-
-  // Variables
-  const quizContainer = document.getElementById('quiz');
-  const resultsContainer = document.getElementById('results');
-  const submitButton = document.getElementById('submit');
-  const myQuestions = [
-    {
-      question: "Who invented JavaScript?",
-      answers: {
-        a: "Douglas Crockford",
-        b: "Sheryl Sandberg",
-        c: "Brendan Eich"
-      },
-      correctAnswer: "c"
-    },
-    {
-      question: "Which one of these is a JavaScript package manager?",
-      answers: {
-        a: "Node.js",
-        b: "TypeScript",
-        c: "npm"
-      },
-      correctAnswer: "c"
-    },
-    {
-      question: "Which tool can you use to ensure code quality?",
-      answers: {
-        a: "Angular",
-        b: "jQuery",
-        c: "RequireJS",
-        d: "ESLint"
-      },
-      correctAnswer: "d"
-    }
-  ];
-
-  // Kick things off
-  buildQuiz();
-
-  // Pagination
-  const previousButton = document.getElementById("previous");
-  const nextButton = document.getElementById("next");
-  const slides = document.querySelectorAll(".slide");
-  let currentSlide = 0;
-
-  // Show the first slide
-  showSlide(currentSlide);
-
-  // Event listeners
-  submitButton.addEventListener('click', showResults);
-  previousButton.addEventListener("click", showPreviousSlide);
-  nextButton.addEventListener("click", showNextSlide);
-})();
+};
+window.addEventListener("load", quiz.init);
