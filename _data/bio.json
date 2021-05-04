@@ -39,7 +39,7 @@
       ]
     },
      {
-      "name": "Bioinformatics",
+      "name": "Data Analytics",
       "keywords": [
       ]
     },
@@ -60,6 +60,7 @@
       "level": "",
       "keywords": [
         "C",
+        "C#",
         "C++",
         "R",
         "SQL",
@@ -101,6 +102,17 @@
       "summary": "Mathematical modeling of Covid-19 related issues",
       "highlights": [
         "Utilizing of data science, advanced Analytics, Predictive Modeling & Statistical Analyses in forecasting Covid-19"
+      ]
+    },
+    {
+      "company": "University of Hawai'i",
+      "position": "Learning Assistant",
+      "website": "http://manoa.hawaii.edu/undergrad/Learning/",
+      "startDate": "2021-01-08",
+      "endDate": "Present",
+      "summary": "Learning Assistant for MATH 242",
+      "highlights": [
+        "Teaching, Communication, Group Work"
       ]
     },
     {
